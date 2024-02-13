@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My homework</title>
+    <style>
+      h1 {
+        font-family: Helvetica;
+        font-size: 50px;
+        font-weight: 200;
+        margin-bottom: 15px;
+        color: white;
+      }
+      p {
+        font-family: Helvetica;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 20px;
+        color: white;
+      }
+      body {
+        background-color: #090446;
+      }
+      .image {
+        padding-left: 300px;
+        padding-top: 0px;
+        content: justify;
+      }
+      div {
+      }
+
+      h1,
+      p {
+        padding-left: 100px;
+        content: justify;
+      }
+      .block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 700px;
+      }
+      .image:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <div>
+        <h1>Hello, I'm Ana</h1>
+        <p>I'm an engineer and BIM-Coordinator as well.</p>
+      </div>
+      <img
+        class="image"
+        width="500px"
+        src="engineer girl1.svg"
+        alt="This is how I look like"
+      />
+    </div>
+    <p
+      style="
+        font-size: 17px;
+        width: 50%;
+        margin-top: 100px;
+        padding-left: 100px;
+      "
+    >
+      <b>BIM</b> is an acronym for Building Information Modeling or Building
+      Information Management. It is a highly collaborative process that allows
+      architects, engineers, real estate developers, contractors, manufacturers,
+      and other construction professionals to plan, design, and construct a
+      structure or building within one 3D model.
+      <br />
+      <b>BIM coordinator</b> is another key player in BIM implementation. This
+      role might also go by titles like Discipline BIM coordinator, Lead BIM
+      coordinator, or BIM discipline manager. Their role involves coordinating
+      and overseeing specific disciplines within a project, ensuring that all
+      the BIM puzzle pieces fit together seamlessly.
+    </p>
+    <p><b>What BIM coordinator do (In <a href="https://eneca.by/" target="_blank">ENECA</a> company):</b></p>
+    <ul
+      type="circle"
+      style="
+        font-family: Helvetica;
+        font-size: 17px;
+        width: 50%;
+        color: white;
+        margin-top: 30px;
+        padding-left: 130px;
+      "
+    >
+      <li>Review 3D Models from consultants and contractors</li>
+      <li>
+        Conduct clash detection and visual walkthroughs using NavisWorks Manage
+      </li>
+      <li>Audit and review models</li>
+      <li>Hold weekly coordination meetings with project team members</li>
+      <li>3D Model Quantity Extraction / Verification</li>
+      <li>4D Scheduling / Simulation using Autodesk NavisWorks</li>
+    </ul>
+    <table
+      border="2px white"
+      style="
+        font-family: Helvetica;
+        color: white;
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 100px;
+      "
+    >
+      <caption>
+        <b
+          style="
+            display: flex;
+            font-family: helvetica;
+            font-size: 25px;
+            color: white;
+            padding-left: 100px;
+          "
+          >Why I chose this job</b
+        >
+      </caption>
+      <tr>
+        <th colspan="1">Reason</th>
+        <th colspan="1">Adv</th>
+        <th colspan="1">Disadv</th>
+      </tr>
+      <tr>
+        <td>Office near home</td>
+        <td> 3mins from home
+        </td>
+        <td>Can't work remotely (mostly)</td>
+      </tr>
+      <tr>
+        <td>Salary</td>
+        <td>
+          Increases every 7 months
+        </td>
+        <td>Not that much (for me)</td>
+      </tr>
+      <tr>
+        <td>Parties</td>
+        <td>
+         Vibrant people around you
+        </td>
+        <td>Alcohol</td>
+      </tr>
+    </table>
+    <p>
+      <b
+        style="
+          display: flex;
+          font-family: helvetica;
+          font-size: 25px;
+          color: white;
+          padding-bottom: 10px;
+        "
+        >What do you think about this page?</b
+      >
+    </p>
+    <form>
+      <br action="submit" method="POST" />
+      <p
+        style="
+          display: flex;
+          font-family: helvetica;
+          font-size: 25px;
+          color: white;
+        "
+      >
+        Your name:
+        <input style="
+        width: 200px;
+        height: 30px;
+        font-family: Helvetica;
+        font-size: 15px;
+        border-radius: 5px;
+        border: solid rgb(248, 12, 12) 3px;
+          type="text"
+          name="fn"
+          size="15"
+          maxlength="30"
+          placeholder="Name"
+        />
+      </p>
+      <p
+        style="
+          display: flex;
+          font-family: helvetica;
+          font-size: 25px;
+          color: white;
+        "
+      >
+        How do you rate it:
+      </p>
+      <br>
+        <label style="
+        display: flex;
+        font-family: helvetica;
+        font-size: 17px;
+        color: white;
+        padding-left: 100px;
+      ">
+          <input type="radio" name="r1" value="1" /> 1-3<br />
+        </label>
+        <label style="
+        display: flex;
+        font-family: helvetica;
+        font-size: 17px;
+        color: white;
+        padding-left: 100px;
+      ">
+          <input type="radio" name="r1" value="2" checked />4-7<br />
+        </label>
+        <label style="
+        display: flex;
+        font-family: helvetica;
+        font-size: 17px;
+        color: white;
+        padding-left: 100px;
+      ">
+          <input type="radio" name="r1" value="3" />8-10<br />
+        </label>
+      </p>
+      <p
+        style="
+          display: flex;
+          font-family: helvetica;
+          font-size: 25px;
+          color: white;
+        "
+      >
+        Is there something you don't like?
+        <br/>
+        <textarea  style="
+        width: 200px;
+        height: 70px;
+        font-family: Helvetica;
+        font-size: 15px;
+        border-radius: 5px;
+        border: solid rgb(248, 12, 12) 3px;
+          name="about"
+          placeholder="Place your thoughts here"
+        ></textarea>
+      </p>
+      <p>
+        <input
+          style="
+            width: 100px;
+            height: 40px;
+            font-family: Helvetica;
+            font-size: 15px;
+            border-radius: 5px;
+            border: solid rgb(249, 19, 222) 3px;
+          "
+          type="reset"
+          value="Clear form"
+        />
+        <button
+          style="
+            width: 170px;
+            height: 40px;
+            font-family: Helvetica;
+            font-size: 15px;
+            border-radius: 5px;
+            border: solid rgb(249, 19, 222) 3px;
+          "
+          type="submit"
+        >
+        Send answer
+        </button>
+      </p>
+    </form>
+  </body>
+</html>
